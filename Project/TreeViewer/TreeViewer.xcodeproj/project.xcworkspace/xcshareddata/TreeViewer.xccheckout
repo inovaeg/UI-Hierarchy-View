@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>79D91121-B5D7-4818-977D-511533DC5B76</string>
+	<string>EAF2BD9D-4C40-415C-969D-BE8AF95CF099</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TreeViewer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8ABB715F-EE68-46DB-89C0-B70D908F10C9</key>
-		<string>https://bitbucket.org/inova_eg/uihierarchyview.git</string>
+		<key>3BC9A792-3FE3-4162-88CC-CB77D5AD0AAC</key>
+		<string>https://github.com/inovaeg/UI-Hierarchy-View.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Project/TreeViewer/TreeViewer.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8ABB715F-EE68-46DB-89C0-B70D908F10C9</key>
+		<key>3BC9A792-3FE3-4162-88CC-CB77D5AD0AAC</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://bitbucket.org/inova_eg/uihierarchyview.git</string>
+	<string>https://github.com/inovaeg/UI-Hierarchy-View.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8ABB715F-EE68-46DB-89C0-B70D908F10C9</string>
+	<string>3BC9A792-3FE3-4162-88CC-CB77D5AD0AAC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8ABB715F-EE68-46DB-89C0-B70D908F10C9</string>
+			<string>3BC9A792-3FE3-4162-88CC-CB77D5AD0AAC</string>
 			<key>IDESourceControlWCCName</key>
-			<string>UI_Hierarchy_View</string>
+			<string>GIT-UI-Hierarchy-View</string>
 		</dict>
 	</array>
 </dict>

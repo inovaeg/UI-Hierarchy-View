@@ -96,7 +96,8 @@
         view.backgroundColor=[UIColor colorWithRed:10.0/255.0 green:150.0/255.0 blue:22.0/255.0 alpha:1];
     else if([self.position isEqual:@"Junior"])
         view.backgroundColor=[UIColor colorWithRed:138.0/255.0 green:123.0/255.0 blue:225.0/255.0 alpha:1];
-    else if([self.position isEqual:@"Senior"])
+    else
+//        if([self.position isEqual:@"Senior"])
         view.backgroundColor=[UIColor colorWithRed:99.0/255.0 green:180.0/255.0 blue:255.0/255.0 alpha:1];
     
     //set border
@@ -149,7 +150,7 @@
         
         self.identifier=identifier;
         self.children=[[NSMutableArray alloc]init];
-        self.nodeView=[self createView2];
+        self.nodeView=[self createView];
     }
     return self;
 }
@@ -167,7 +168,7 @@
             if([child isKindOfClass:[Node class]])
                 [self.children addObject:child];
         }
-        self.nodeView=[self createView2];
+        self.nodeView=[self createView];
     }
     return self;
 }
