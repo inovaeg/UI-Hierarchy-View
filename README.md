@@ -38,7 +38,7 @@ Here we can use this libarary, it supports you with a view that visialize the yo
 
 You can also add a custom cell view for each node.
 
-![MY_COOL_IMAGE](/Users/inovaEG/Desktop/test.png)
+![MY_COOL_IMAGE](https://raw.githubusercontent.com/inovaeg/UI-Hierarchy-View/master/test.png)
 
 ##Installation
 
