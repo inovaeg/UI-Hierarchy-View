@@ -106,8 +106,8 @@ The node object should adopt the `<TreeViewerDelegate>`
 
 ##Contributor list
 
-1. Inova Team (http://www.inovaeg.co/)
-2. Ahmed Hesham (link to Ahmed Hesham online profile)
+1. [Inova Team](http://www.inovaeg.co/) 
+2. [Ahmed Hesham](eg.linkedin.com/pub/ahmed-hesham/60/502/7a2/)
 3. Temon (link to Temon online profile)
 
 ##Contribution guidelines
