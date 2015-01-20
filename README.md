@@ -49,11 +49,13 @@ You will need the following classes:
 2. **TreeViewer**
 3. **TreeViewerDelegate**
 
+and then:
 
-In your ViewController create your tree structure and initialize our **HierarchyScrollView** with the frame of the view *(the frame where you want to show the view)* root node of your tree.
+* In your ViewController create your tree structure and initialize our **HierarchyScrollView** with the frame of the view *(the frame where you want to show the view)* root node of your tree.
 
-The node object should adopt the `<TreeViewerDelegate>`
+* The node object should adopt the `<TreeViewerDelegate>`
 
+For help [support@inovaeg.com](support@inovaeg.com)
 
 ##API Reference
 
@@ -101,13 +103,21 @@ The node object should adopt the `<TreeViewerDelegate>`
 
 `-(void) viewDidLoad` method here you can create our view (*HierarchyScrollView*) and add it to the view controller as subview.
 
-[Vim Repository]: https://github.com/altercation/vim-colors-solarized
-##Contributors
 
-We want the hierarchy view to be editable so user can add or remove nodes with animation.
+##Contributor list
+
+1. Inova Team (http://www.inovaeg.co/)
+2. Ahmed Hesham (link to Ahmed Hesham online profile)
+3. Temon (link to Temon online profile)
+
+##Contribution guidelines
+
+-  Hierarchy view to be editable so user can add or remove nodes with animation.
+-  Support different Node size.
+-  Support Node sibling expand and collapse.
 
 
 
 ##License
-
-Code and documentation copyright 2015-2020
+Copyright (C) 2015 Inova LLC. Licensed under the [Apache License](http://www.apache.org/licenses/LICENSE-2.0)
+, Version 2.0 
