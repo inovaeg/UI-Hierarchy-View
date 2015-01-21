@@ -1,6 +1,6 @@
 # Hierarchy View
 
-An Objective_C libarary to visalize any hierarchy tree structure.
+An Objective_C library to visualize any hierarchy tree structure.
 
 It supports you with an api to create your tree structure and to add your custom cell views.
 
@@ -34,7 +34,7 @@ So you should create a tree structure of nodes and then initialize our **Hierarc
 
 Consider yourself trying to visualize a supervision hierarchy in a company or any other tree hierarchy, and each node may have multi-children.
 
-Here we can use this libarary, it supports you with a view that visialize the your tree.
+Here we can use this library, it supports you with a view that visialise your tree.
 
 You can also add a custom cell view for each node.
 

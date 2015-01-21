@@ -49,7 +49,7 @@
 
 // Double tapping resize the view.
 - (IBAction)TapScreen:(UITapGestureRecognizer *)sender {
-    self.zoomScale=0.5;
+    self.zoomScale=0.2;
 }
 
 
@@ -57,7 +57,7 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect
 {
-    self.zoomScale=0.5;
+    self.zoomScale=0.2;
     self.backgroundColor=[UIColor whiteColor];
 }
 
