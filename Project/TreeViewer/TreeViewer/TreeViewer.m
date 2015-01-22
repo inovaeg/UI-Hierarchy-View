@@ -24,7 +24,7 @@
 @implementation TreeViewer
 
 
-static const CGSize gap = {20, 200}; // Gap between cells in rows, also gap between rows
+static const CGSize gap = {20, 50}; // Gap between cells in rows, also gap between rows
 static const CGPoint viewShift ={30, 0}; // tree shift
 
 
@@ -32,6 +32,36 @@ static const CGPoint viewShift ={30, 0}; // tree shift
 
 // First Path:
 // A first dfs path to calculate the starting positions of external leaves.
+-(void) dfSearchForNode:(id<TreeViewerDelegate>)root withRowNumber:(int)row withRows:(NSMutableArray *)rowsStart withVisitedArray:(NSMutableArray *)visited{
+    // visit and draw node
+    int rowWidth=root.weight*(root.nodeView.bounds.size.width+gap.width)-gap.width+(gap.width);
+    if(root.children.count == 0)
+        [self drawViewWithStartX:root andRowWidth:rowWidth andRowNumber:row];
+    
+    for(id<TreeViewerDelegate> child in root.children){
+        // if the node is starting node in the row then initialize the row with the parents padding.
+        if(![visited containsObject:child]){
+            if(row+1>rowsStart.count)
+                [rowsStart addObject:[NSNumber numberWithInt:root.startX]];
+            if(root.startX>[rowsStart[row] intValue]){
+                child.startX=root.startX;
+                [rowsStart replaceObjectAtIndex:row withObject:[NSNumber numberWithInt:root.startX]];
+            }
+            else{
+                child.startX=[rowsStart[row] intValue];
+            }
+    
+            int rowWidth=child.weight*(child.nodeView.bounds.size.width+gap.width)-gap.width+(gap.width);
+            //update row start point
+            int rowStartX = [[rowsStart objectAtIndex:row] intValue]+rowWidth;
+            [rowsStart replaceObjectAtIndex:row withObject:[NSNumber numberWithInt:rowStartX]];
+            //traverse other nodes
+            [self dfSearchForNode:child withRowNumber:row+1 withRows:rowsStart withVisitedArray:visited];
+            [visited addObject:child];
+        }
+    }
+}
+
 -(void) dfSearchForNode:(id<TreeViewerDelegate>)root withRowNumber:(int)row withRows:(NSMutableArray *)rowsStart{
     // visit and draw node
     int rowWidth=root.weight*(root.nodeView.bounds.size.width+gap.width)-gap.width+(gap.width);
@@ -40,23 +70,26 @@ static const CGPoint viewShift ={30, 0}; // tree shift
     
     for(id<TreeViewerDelegate> child in root.children){
         // if the node is starting node in the row then initialize the row with the parents padding.
-        if(row+1>rowsStart.count)
-            [rowsStart addObject:[NSNumber numberWithInt:root.startX]];
-        if(root.startX>[rowsStart[row] intValue]){
-            child.startX=root.startX;
-            [rowsStart replaceObjectAtIndex:row withObject:[NSNumber numberWithInt:root.startX]];
-        }
-        else{
-            child.startX=[rowsStart[row] intValue];
-        }
-        int rowWidth=child.weight*(child.nodeView.bounds.size.width+gap.width)-gap.width+(gap.width);
-        //update row start point
-        int rowStartX = [[rowsStart objectAtIndex:row] intValue]+rowWidth;
-        [rowsStart replaceObjectAtIndex:row withObject:[NSNumber numberWithInt:rowStartX]];
-        //traverse other nodes
-        [self dfSearchForNode:child withRowNumber:row+1 withRows:rowsStart];
+            if(row+1>rowsStart.count)
+                [rowsStart addObject:[NSNumber numberWithInt:root.startX]];
+            if(root.startX>[rowsStart[row] intValue]){
+                child.startX=root.startX;
+                [rowsStart replaceObjectAtIndex:row withObject:[NSNumber numberWithInt:root.startX]];
+            }
+            else{
+                child.startX=[rowsStart[row] intValue];
+            }
+            
+            int rowWidth=child.weight*(child.nodeView.bounds.size.width+gap.width)-gap.width+(gap.width);
+            //update row start point
+            int rowStartX = [[rowsStart objectAtIndex:row] intValue]+rowWidth;
+            [rowsStart replaceObjectAtIndex:row withObject:[NSNumber numberWithInt:rowStartX]];
+            //traverse other nodes
+            [self dfSearchForNode:child withRowNumber:row+1 withRows:rowsStart];
     }
 }
+
+
 
 // Second Path:
 // A second dfs path to center internal nodes (parent) between it's children.
@@ -152,6 +185,8 @@ static const CGPoint viewShift ={30, 0}; // tree shift
 
 -(void) drawArcFrom:(id<TreeViewerDelegate>) node withLevel:(int)row
 {
+    
+    float thickness=3.0;
     //lines color
     int colorHex=0x939598;
     UIColor * color=[UIColor colorWithRed:((float)((colorHex & 0xFF0000) >> 16))/255.0 \
@@ -169,7 +204,7 @@ static const CGPoint viewShift ={30, 0}; // tree shift
         UIBezierPath *line1 = [UIBezierPath bezierPath];
         [line1 moveToPoint:start1];
         [line1 addLineToPoint:end1];
-        line1.lineWidth=7.0;
+        line1.lineWidth=thickness;
         [color setStroke];
         [line1 stroke];
     }
@@ -185,7 +220,7 @@ static const CGPoint viewShift ={30, 0}; // tree shift
         UIBezierPath *line2 = [UIBezierPath bezierPath];
         [line2 moveToPoint:start2];
         [line2 addLineToPoint:end2];
-        line2.lineWidth=7.0;
+        line2.lineWidth=thickness;
         [color setStroke];
         [line2 stroke];
         
@@ -200,7 +235,7 @@ static const CGPoint viewShift ={30, 0}; // tree shift
         UIBezierPath *line3 = [UIBezierPath bezierPath];
         [line3 moveToPoint:start3];
         [line3 addLineToPoint:end3];
-        line3.lineWidth=7.0;
+        line3.lineWidth=thickness;
         [color setStroke];
         [line3 stroke];
     }
@@ -211,6 +246,12 @@ static const CGPoint viewShift ={30, 0}; // tree shift
 {
     int startX = node.startX+viewShift.x;
     int startY = (row+1)*(gap.height+node.nodeView.bounds.size.height) + viewShift.y;
+    
+    //TODO: remove this
+    startX-= node.nodeView.bounds.size.width/2;
+    startY-= node.nodeView.bounds.size.height/2;
+    //
+    
     [node.nodeView setFrame:CGRectMake(startX, startY, node.nodeView.bounds.size.width, node.nodeView.bounds.size.height)];
     
     [self addSubview:node.nodeView];

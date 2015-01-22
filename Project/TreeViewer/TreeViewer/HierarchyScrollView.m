@@ -43,13 +43,14 @@
 
         [self addSubview:self.treeView];
         
+        
     }
     return self;
 }
 
 // Double tapping resize the view.
 - (IBAction)TapScreen:(UITapGestureRecognizer *)sender {
-    self.zoomScale=0.2;
+    self.zoomScale=0.6;
 }
 
 
@@ -57,7 +58,7 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect
 {
-    self.zoomScale=0.2;
+    self.zoomScale=0.6;
     self.backgroundColor=[UIColor whiteColor];
 }
 

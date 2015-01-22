@@ -39,6 +39,8 @@
 		92A419171A6ECBBF004CC575 /* Mostafa_Zonkoly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419081A6ECBBF004CC575 /* Mostafa_Zonkoly.jpg */; };
 		92A419181A6ECBBF004CC575 /* Hossam_Sherif.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419091A6ECBBF004CC575 /* Hossam_Sherif.jpg */; };
 		92A4191A1A6ECE63004CC575 /* Mohamed_Hussien.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419191A6ECE63004CC575 /* Mohamed_Hussien.jpg */; };
+		92A4191E1A70027C004CC575 /* Employees.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92A4191D1A70027C004CC575 /* Employees.plist */; };
+		92A419211A7022F1004CC575 /* CustomNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A419201A7022F1004CC575 /* CustomNodeView.m */; };
 		92EC4CA61A62E6A500F82773 /* HierarchyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EC4CA51A62E6A500F82773 /* HierarchyScrollView.m */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +94,9 @@
 		92A419081A6ECBBF004CC575 /* Mostafa_Zonkoly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mostafa_Zonkoly.jpg; sourceTree = "<group>"; };
 		92A419091A6ECBBF004CC575 /* Hossam_Sherif.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hossam_Sherif.jpg; sourceTree = "<group>"; };
 		92A419191A6ECE63004CC575 /* Mohamed_Hussien.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mohamed_Hussien.jpg; sourceTree = "<group>"; };
+		92A4191D1A70027C004CC575 /* Employees.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Employees.plist; sourceTree = "<group>"; };
+		92A4191F1A7022F1004CC575 /* CustomNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNodeView.h; sourceTree = "<group>"; };
+		92A419201A7022F1004CC575 /* CustomNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNodeView.m; sourceTree = "<group>"; };
 		92EC4CA41A62E6A500F82773 /* HierarchyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HierarchyScrollView.h; sourceTree = "<group>"; };
 		92EC4CA51A62E6A500F82773 /* HierarchyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HierarchyScrollView.m; sourceTree = "<group>"; };
 		92FC061E1A66E9FA00E149CA /* TreeViewerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeViewerDelegate.h; sourceTree = "<group>"; };
@@ -156,13 +161,15 @@
 			children = (
 				925CF8781A547734000300F5 /* Main_iPhone.storyboard */,
 				925CF87B1A547734000300F5 /* Main_iPad.storyboard */,
+				92FC061E1A66E9FA00E149CA /* TreeViewerDelegate.h */,
 				925CF87E1A547734000300F5 /* TreeViewerViewController.h */,
 				925CF87F1A547734000300F5 /* TreeViewerViewController.m */,
 				92EC4CA41A62E6A500F82773 /* HierarchyScrollView.h */,
 				92EC4CA51A62E6A500F82773 /* HierarchyScrollView.m */,
 				925CF89E1A54786F000300F5 /* TreeViewer.h */,
 				925CF89F1A547870000300F5 /* TreeViewer.m */,
-				92FC061E1A66E9FA00E149CA /* TreeViewerDelegate.h */,
+				92A4191F1A7022F1004CC575 /* CustomNodeView.h */,
+				92A419201A7022F1004CC575 /* CustomNodeView.m */,
 				925CF8C11A55732D000300F5 /* Node.h */,
 				925CF8C21A55732D000300F5 /* Node.m */,
 				925CF8811A547734000300F5 /* Images.xcassets */,
@@ -174,6 +181,7 @@
 		925CF86D1A547734000300F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92A4191D1A70027C004CC575 /* Employees.plist */,
 				92A419191A6ECE63004CC575 /* Mohamed_Hussien.jpg */,
 				92A418FB1A6ECBBF004CC575 /* 1.png */,
 				92A418FC1A6ECBBF004CC575 /* 2.png */,
@@ -306,6 +314,7 @@
 				925CF87A1A547734000300F5 /* Main_iPhone.storyboard in Resources */,
 				92A4190F1A6ECBBF004CC575 /* 6.png in Resources */,
 				92A4190D1A6ECBBF004CC575 /* 4.png in Resources */,
+				92A4191E1A70027C004CC575 /* Employees.plist in Resources */,
 				925CF8711A547734000300F5 /* InfoPlist.strings in Resources */,
 				92A419131A6ECBBF004CC575 /* Ahmed_Hesham.jpg in Resources */,
 				92A4190E1A6ECBBF004CC575 /* 5.png in Resources */,
@@ -333,6 +342,7 @@
 			files = (
 				925CF8C51A55732D000300F5 /* Node.m in Sources */,
 				925CF8801A547734000300F5 /* TreeViewerViewController.m in Sources */,
+				92A419211A7022F1004CC575 /* CustomNodeView.m in Sources */,
 				925CF8A01A547870000300F5 /* TreeViewer.m in Sources */,
 				925CF8771A547734000300F5 /* TreeViewerAppDelegate.m in Sources */,
 				925CF8731A547734000300F5 /* main.m in Sources */,

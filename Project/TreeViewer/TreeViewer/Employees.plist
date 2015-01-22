@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Ahmed Hesham</string>
+		<key>Position</key>
+		<string>Android Developer</string>
+		<key>Image Name</key>
+		<string>Ahmed_Hesham.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hossam Saad</string>
+		<key>Position</key>
+		<string>Co-founder</string>
+		<key>Image Name</key>
+		<string>Hossam_Saad.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ahmed Badie</string>
+		<key>Position</key>
+		<string>Co-founder &amp; CEO</string>
+		<key>Image Name</key>
+		<string>Ahmed_Badie.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Kareem Ahmed</string>
+		<key>Position</key>
+		<string>Team Leader</string>
+		<key>Image Name</key>
+		<string>Kareem_Ahmed.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mohamed Saad</string>
+		<key>Position</key>
+		<string>Co-founder</string>
+		<key>Image Name</key>
+		<string>Mohamed_Saad.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mostafa Zonkoly</string>
+		<key>Position</key>
+		<string>iOS Developer</string>
+		<key>Image Name</key>
+		<string>Mostafa_Zonkoly.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Mohamed Hussien</string>
+		<key>Position</key>
+		<string>Designer</string>
+		<key>Image Name</key>
+		<string>Mohamed_Hussien.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Amr Assal</string>
+		<key>Position</key>
+		<string>iOS Developer</string>
+		<key>Image Name</key>
+		<string>Amr_Assal.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hossam Sherif</string>
+		<key>Position</key>
+		<string>Senior_iOS Developer</string>
+		<key>Image Name</key>
+		<string>Hossam_Sherif.jpg</string>
+	</dict>
+</array>
+</plist>

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Node.h"
+#import "CustomNodeView.h"
 #import "HierarchyScrollView.h"
 
 @interface TreeViewerViewController : UIViewController

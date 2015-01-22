@@ -29,7 +29,7 @@
     self=[super init];
     if(self){
         self.name=[info objectForKey:@"Name"];
-        self.imageName=[info objectForKey:@"ImageName"];
+        self.imageName=[info objectForKey:@"Image Name"];
         self.position=[info objectForKey:@"Position"];
         
         self.identifier=identifier;
@@ -42,7 +42,7 @@
     self=[super init];
     if(self){
         self.name=[info objectForKey:@"Name"];
-        self.imageName=[info objectForKey:@"ImageName"];
+        self.imageName=[info objectForKey:@"Image Name"];
         self.position=[info objectForKey:@"Position"];
 
         self.identifier=identifier;
