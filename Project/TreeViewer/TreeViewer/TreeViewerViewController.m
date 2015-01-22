@@ -36,7 +36,6 @@
     for (int i=0;i<9;i++) {
         UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"CustomViewConroller"];
         CustomNodeView * customView = (CustomNodeView *)[vc.view viewWithTag:25];
-        NSLog(@"zeeeeeeeez %f,%f",customView.bounds.size.width,customView.bounds.size.height);
         [customView createViewWithNode:((Node *)array[i])];
         ((Node *)array[i]).nodeView = customView;
     }
