@@ -15,32 +15,54 @@
 @implementation TreeViewerViewController
 
 -(id<TreeViewerDelegate>) setup{
-    // create nodes
-    // add children to parent
-    NSURL *employeesFile = [[NSBundle mainBundle] URLForResource:@"Employees" withExtension:@"plist"];
-    NSArray *plistContent = [NSArray arrayWithContentsOfURL:employeesFile];
+    // Our Tree structure is in plist file.
+    NSURL *employeesFile = [[NSBundle mainBundle] URLForResource:@"EmployeesTree" withExtension:@"plist"];
+    NSDictionary *rootInfo = [NSDictionary dictionaryWithContentsOfURL:employeesFile];
     
-    Node *n10=[[Node alloc]initWithIdentifier:@"10" andInfo:plistContent[8]];
-    Node *n8=[[Node alloc]initWithIdentifier:@"8" andInfo:plistContent[5]];
-    Node *n9=[[Node alloc]initWithIdentifier:@"9" andInfo:plistContent[0]];
-    Node *n5=[[Node alloc]initWithChildren:@[n8,n9] andIdentifier:@"5" andInfo:plistContent[3]];
-    Node *n2=[[Node alloc]initWithChildren:@[n5] andIdentifier:@"2" andInfo:plistContent[1]];
-    Node *n6=[[Node alloc]initWithIdentifier:@"6" andInfo:plistContent[7]];
-    Node *n7=[[Node alloc]initWithIdentifier:@"7" andInfo:plistContent[6]];
-    Node *n4=[[Node alloc]initWithChildren:@[n6,n7,n10] andIdentifier:@"4" andInfo:plistContent[4]];
-    Node *n1=[[Node alloc]initWithChildren:@[n2,n4] andIdentifier:@"Ahmed Badie" andInfo:plistContent[2]];
+    //traverse the tree from plist and create node.
+    int count=0;
+    NSMutableArray *visited=[[NSMutableArray alloc]init];
+    // a queue to insert visited nodes in.
+    
+    Node * root= [[Node alloc] initWithIdentifier:[[NSString alloc]initWithFormat:@"i_%d",count] andInfo:rootInfo];
+    NSMutableArray *queue=[[NSMutableArray alloc]init];
+    NSMutableArray *nodeQueue=[[NSMutableArray alloc]init];
+    NSMutableArray *nodes=[[NSMutableArray alloc]init];
+
+    [nodeQueue addObject:root];
+    [queue addObject:rootInfo];
+    [visited addObject:rootInfo];
+    
+    while(queue.count>0){
+        NSDictionary *nodeInfo=[queue objectAtIndex:0];
+        Node *parent=[nodeQueue objectAtIndex:0];
+        [nodes addObject:parent];
+        [queue removeObjectAtIndex:0];
+        [nodeQueue removeObjectAtIndex:0];
+        for(id childInfo in [nodeInfo objectForKey:@"Children"]){
+            if(![visited containsObject:childInfo]){
+                count++;
+                Node * node= [[Node alloc] initWithIdentifier:[[NSString alloc]initWithFormat:@"i_%d",count] andInfo:childInfo];
+                [parent.children addObject:node];
+                [nodeQueue addObject:node];
+                [queue addObject:childInfo];
+                [visited addObject:childInfo];
+            }
+        }
+    }
+
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
-
-    NSArray *array=@[n1,n2,n4,n5,n6,n7,n8,n9,n10];
-    for (int i=0;i<9;i++) {
+    NSLog(@"%d",[nodeQueue count]);
+    
+    for (int i=0;i<[nodes count];i++) {
         UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"CustomViewConroller"];
         CustomNodeView * customView = (CustomNodeView *)[vc.view viewWithTag:25];
-        [customView createViewWithNode:((Node *)array[i])];
-        ((Node *)array[i]).nodeView = customView;
+        [customView createViewWithNode:((Node *)nodes[i])];
+        ((Node *)nodes[i]).nodeView = customView;
     }
     
-    return n1;
+    return root;
 }
 
 - (void)viewDidLoad

@@ -24,24 +24,24 @@
 		925CF8951A547734000300F5 /* TreeViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 925CF8941A547734000300F5 /* TreeViewerTests.m */; };
 		925CF8A01A547870000300F5 /* TreeViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 925CF89F1A547870000300F5 /* TreeViewer.m */; };
 		925CF8C51A55732D000300F5 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 925CF8C21A55732D000300F5 /* Node.m */; };
-		92A4190A1A6ECBBF004CC575 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A418FB1A6ECBBF004CC575 /* 1.png */; };
-		92A4190B1A6ECBBF004CC575 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A418FC1A6ECBBF004CC575 /* 2.png */; };
-		92A4190C1A6ECBBF004CC575 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A418FD1A6ECBBF004CC575 /* 3.png */; };
-		92A4190D1A6ECBBF004CC575 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A418FE1A6ECBBF004CC575 /* 4.png */; };
-		92A4190E1A6ECBBF004CC575 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A418FF1A6ECBBF004CC575 /* 5.png */; };
-		92A4190F1A6ECBBF004CC575 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A419001A6ECBBF004CC575 /* 6.png */; };
-		92A419101A6ECBBF004CC575 /* Amr_Assal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419011A6ECBBF004CC575 /* Amr_Assal.jpg */; };
-		92A419111A6ECBBF004CC575 /* Ahmed_Badie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419021A6ECBBF004CC575 /* Ahmed_Badie.jpg */; };
-		92A419121A6ECBBF004CC575 /* Hossam_Saad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419031A6ECBBF004CC575 /* Hossam_Saad.jpg */; };
-		92A419131A6ECBBF004CC575 /* Ahmed_Hesham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419041A6ECBBF004CC575 /* Ahmed_Hesham.jpg */; };
-		92A419141A6ECBBF004CC575 /* Mohamed_Saad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419051A6ECBBF004CC575 /* Mohamed_Saad.jpg */; };
-		92A419151A6ECBBF004CC575 /* Kareem_Ahmed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419061A6ECBBF004CC575 /* Kareem_Ahmed.jpg */; };
-		92A419171A6ECBBF004CC575 /* Mostafa_Zonkoly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419081A6ECBBF004CC575 /* Mostafa_Zonkoly.jpg */; };
-		92A419181A6ECBBF004CC575 /* Hossam_Sherif.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419091A6ECBBF004CC575 /* Hossam_Sherif.jpg */; };
-		92A4191A1A6ECE63004CC575 /* Mohamed_Hussien.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419191A6ECE63004CC575 /* Mohamed_Hussien.jpg */; };
-		92A4191E1A70027C004CC575 /* Employees.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92A4191D1A70027C004CC575 /* Employees.plist */; };
 		92A419211A7022F1004CC575 /* CustomNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A419201A7022F1004CC575 /* CustomNodeView.m */; };
+		92A419321A718C4B004CC575 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A419231A718C4A004CC575 /* 6.png */; };
+		92A419331A718C4B004CC575 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A419241A718C4A004CC575 /* 5.png */; };
+		92A419341A718C4B004CC575 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A419251A718C4A004CC575 /* 4.png */; };
+		92A419351A718C4B004CC575 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A419261A718C4A004CC575 /* 3.png */; };
+		92A419361A718C4B004CC575 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A419271A718C4A004CC575 /* 2.png */; };
+		92A419371A718C4B004CC575 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A419281A718C4A004CC575 /* 1.png */; };
+		92A419381A718C4B004CC575 /* Amr_Assal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419291A718C4A004CC575 /* Amr_Assal.jpg */; };
+		92A419391A718C4B004CC575 /* Ahmed_Badie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A4192A1A718C4A004CC575 /* Ahmed_Badie.jpg */; };
+		92A4193A1A718C4B004CC575 /* Hossam_Saad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A4192B1A718C4A004CC575 /* Hossam_Saad.jpg */; };
+		92A4193B1A718C4B004CC575 /* Ahmed_Hesham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A4192C1A718C4A004CC575 /* Ahmed_Hesham.jpg */; };
+		92A4193C1A718C4B004CC575 /* Mohamed_Saad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A4192D1A718C4A004CC575 /* Mohamed_Saad.jpg */; };
+		92A4193D1A718C4B004CC575 /* Kareem_Ahmed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A4192E1A718C4A004CC575 /* Kareem_Ahmed.jpg */; };
+		92A4193E1A718C4B004CC575 /* Mohamed_Hussien.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A4192F1A718C4A004CC575 /* Mohamed_Hussien.jpg */; };
+		92A4193F1A718C4B004CC575 /* Mostafa_Zonkoly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419301A718C4A004CC575 /* Mostafa_Zonkoly.jpg */; };
+		92A419401A718C4B004CC575 /* Hossam_Sherif.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92A419311A718C4A004CC575 /* Hossam_Sherif.jpg */; };
 		92EC4CA61A62E6A500F82773 /* HierarchyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EC4CA51A62E6A500F82773 /* HierarchyScrollView.m */; };
+		92FBF16E1A7679DC001CC14C /* EmployeesTree.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92FBF16D1A7679DC001CC14C /* EmployeesTree.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,26 +79,26 @@
 		925CF89F1A547870000300F5 /* TreeViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeViewer.m; sourceTree = "<group>"; };
 		925CF8C11A55732D000300F5 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		925CF8C21A55732D000300F5 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
-		92A418FB1A6ECBBF004CC575 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		92A418FC1A6ECBBF004CC575 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		92A418FD1A6ECBBF004CC575 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
-		92A418FE1A6ECBBF004CC575 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		92A418FF1A6ECBBF004CC575 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
-		92A419001A6ECBBF004CC575 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
-		92A419011A6ECBBF004CC575 /* Amr_Assal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Amr_Assal.jpg; sourceTree = "<group>"; };
-		92A419021A6ECBBF004CC575 /* Ahmed_Badie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ahmed_Badie.jpg; sourceTree = "<group>"; };
-		92A419031A6ECBBF004CC575 /* Hossam_Saad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hossam_Saad.jpg; sourceTree = "<group>"; };
-		92A419041A6ECBBF004CC575 /* Ahmed_Hesham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ahmed_Hesham.jpg; sourceTree = "<group>"; };
-		92A419051A6ECBBF004CC575 /* Mohamed_Saad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mohamed_Saad.jpg; sourceTree = "<group>"; };
-		92A419061A6ECBBF004CC575 /* Kareem_Ahmed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kareem_Ahmed.jpg; sourceTree = "<group>"; };
-		92A419081A6ECBBF004CC575 /* Mostafa_Zonkoly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mostafa_Zonkoly.jpg; sourceTree = "<group>"; };
-		92A419091A6ECBBF004CC575 /* Hossam_Sherif.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hossam_Sherif.jpg; sourceTree = "<group>"; };
-		92A419191A6ECE63004CC575 /* Mohamed_Hussien.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mohamed_Hussien.jpg; sourceTree = "<group>"; };
-		92A4191D1A70027C004CC575 /* Employees.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Employees.plist; sourceTree = "<group>"; };
 		92A4191F1A7022F1004CC575 /* CustomNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNodeView.h; sourceTree = "<group>"; };
 		92A419201A7022F1004CC575 /* CustomNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNodeView.m; sourceTree = "<group>"; };
+		92A419231A718C4A004CC575 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = images/6.png; sourceTree = "<group>"; };
+		92A419241A718C4A004CC575 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = images/5.png; sourceTree = "<group>"; };
+		92A419251A718C4A004CC575 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = images/4.png; sourceTree = "<group>"; };
+		92A419261A718C4A004CC575 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = images/3.png; sourceTree = "<group>"; };
+		92A419271A718C4A004CC575 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = images/2.png; sourceTree = "<group>"; };
+		92A419281A718C4A004CC575 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = images/1.png; sourceTree = "<group>"; };
+		92A419291A718C4A004CC575 /* Amr_Assal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Amr_Assal.jpg; path = images/Amr_Assal.jpg; sourceTree = "<group>"; };
+		92A4192A1A718C4A004CC575 /* Ahmed_Badie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ahmed_Badie.jpg; path = images/Ahmed_Badie.jpg; sourceTree = "<group>"; };
+		92A4192B1A718C4A004CC575 /* Hossam_Saad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hossam_Saad.jpg; path = images/Hossam_Saad.jpg; sourceTree = "<group>"; };
+		92A4192C1A718C4A004CC575 /* Ahmed_Hesham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ahmed_Hesham.jpg; path = images/Ahmed_Hesham.jpg; sourceTree = "<group>"; };
+		92A4192D1A718C4A004CC575 /* Mohamed_Saad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Mohamed_Saad.jpg; path = images/Mohamed_Saad.jpg; sourceTree = "<group>"; };
+		92A4192E1A718C4A004CC575 /* Kareem_Ahmed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Kareem_Ahmed.jpg; path = images/Kareem_Ahmed.jpg; sourceTree = "<group>"; };
+		92A4192F1A718C4A004CC575 /* Mohamed_Hussien.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Mohamed_Hussien.jpg; path = images/Mohamed_Hussien.jpg; sourceTree = "<group>"; };
+		92A419301A718C4A004CC575 /* Mostafa_Zonkoly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Mostafa_Zonkoly.jpg; path = images/Mostafa_Zonkoly.jpg; sourceTree = "<group>"; };
+		92A419311A718C4A004CC575 /* Hossam_Sherif.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hossam_Sherif.jpg; path = images/Hossam_Sherif.jpg; sourceTree = "<group>"; };
 		92EC4CA41A62E6A500F82773 /* HierarchyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HierarchyScrollView.h; sourceTree = "<group>"; };
 		92EC4CA51A62E6A500F82773 /* HierarchyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HierarchyScrollView.m; sourceTree = "<group>"; };
+		92FBF16D1A7679DC001CC14C /* EmployeesTree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmployeesTree.plist; sourceTree = "<group>"; };
 		92FC061E1A66E9FA00E149CA /* TreeViewerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeViewerDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +133,7 @@
 				925CF88E1A547734000300F5 /* TreeViewerTests */,
 				925CF8651A547734000300F5 /* Frameworks */,
 				925CF8641A547734000300F5 /* Products */,
+				92A419221A718C2C004CC575 /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,22 +182,7 @@
 		925CF86D1A547734000300F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				92A4191D1A70027C004CC575 /* Employees.plist */,
-				92A419191A6ECE63004CC575 /* Mohamed_Hussien.jpg */,
-				92A418FB1A6ECBBF004CC575 /* 1.png */,
-				92A418FC1A6ECBBF004CC575 /* 2.png */,
-				92A418FD1A6ECBBF004CC575 /* 3.png */,
-				92A418FE1A6ECBBF004CC575 /* 4.png */,
-				92A418FF1A6ECBBF004CC575 /* 5.png */,
-				92A419001A6ECBBF004CC575 /* 6.png */,
-				92A419011A6ECBBF004CC575 /* Amr_Assal.jpg */,
-				92A419021A6ECBBF004CC575 /* Ahmed_Badie.jpg */,
-				92A419031A6ECBBF004CC575 /* Hossam_Saad.jpg */,
-				92A419041A6ECBBF004CC575 /* Ahmed_Hesham.jpg */,
-				92A419051A6ECBBF004CC575 /* Mohamed_Saad.jpg */,
-				92A419061A6ECBBF004CC575 /* Kareem_Ahmed.jpg */,
-				92A419081A6ECBBF004CC575 /* Mostafa_Zonkoly.jpg */,
-				92A419091A6ECBBF004CC575 /* Hossam_Sherif.jpg */,
+				92FBF16D1A7679DC001CC14C /* EmployeesTree.plist */,
 				925CF8751A547734000300F5 /* TreeViewerAppDelegate.h */,
 				925CF8761A547734000300F5 /* TreeViewerAppDelegate.m */,
 				925CF86E1A547734000300F5 /* TreeViewer-Info.plist */,
@@ -223,6 +209,29 @@
 				925CF8911A547734000300F5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92A419221A718C2C004CC575 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				92A419231A718C4A004CC575 /* 6.png */,
+				92A419241A718C4A004CC575 /* 5.png */,
+				92A419251A718C4A004CC575 /* 4.png */,
+				92A419261A718C4A004CC575 /* 3.png */,
+				92A419271A718C4A004CC575 /* 2.png */,
+				92A419281A718C4A004CC575 /* 1.png */,
+				92A419291A718C4A004CC575 /* Amr_Assal.jpg */,
+				92A4192A1A718C4A004CC575 /* Ahmed_Badie.jpg */,
+				92A4192B1A718C4A004CC575 /* Hossam_Saad.jpg */,
+				92A4192C1A718C4A004CC575 /* Ahmed_Hesham.jpg */,
+				92A4192D1A718C4A004CC575 /* Mohamed_Saad.jpg */,
+				92A4192E1A718C4A004CC575 /* Kareem_Ahmed.jpg */,
+				92A4192F1A718C4A004CC575 /* Mohamed_Hussien.jpg */,
+				92A419301A718C4A004CC575 /* Mostafa_Zonkoly.jpg */,
+				92A419311A718C4A004CC575 /* Hossam_Sherif.jpg */,
+			);
+			name = images;
+			path = TreeViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,26 +311,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A419181A6ECBBF004CC575 /* Hossam_Sherif.jpg in Resources */,
-				92A4191A1A6ECE63004CC575 /* Mohamed_Hussien.jpg in Resources */,
-				92A419121A6ECBBF004CC575 /* Hossam_Saad.jpg in Resources */,
-				92A419101A6ECBBF004CC575 /* Amr_Assal.jpg in Resources */,
-				92A419151A6ECBBF004CC575 /* Kareem_Ahmed.jpg in Resources */,
-				92A4190B1A6ECBBF004CC575 /* 2.png in Resources */,
-				92A419141A6ECBBF004CC575 /* Mohamed_Saad.jpg in Resources */,
+				92A419371A718C4B004CC575 /* 1.png in Resources */,
+				92A4193A1A718C4B004CC575 /* Hossam_Saad.jpg in Resources */,
+				92A4193C1A718C4B004CC575 /* Mohamed_Saad.jpg in Resources */,
+				92A419321A718C4B004CC575 /* 6.png in Resources */,
 				925CF87D1A547734000300F5 /* Main_iPad.storyboard in Resources */,
+				92A419361A718C4B004CC575 /* 2.png in Resources */,
 				925CF8821A547734000300F5 /* Images.xcassets in Resources */,
+				92A419391A718C4B004CC575 /* Ahmed_Badie.jpg in Resources */,
+				92A419351A718C4B004CC575 /* 3.png in Resources */,
 				925CF87A1A547734000300F5 /* Main_iPhone.storyboard in Resources */,
-				92A4190F1A6ECBBF004CC575 /* 6.png in Resources */,
-				92A4190D1A6ECBBF004CC575 /* 4.png in Resources */,
-				92A4191E1A70027C004CC575 /* Employees.plist in Resources */,
+				92FBF16E1A7679DC001CC14C /* EmployeesTree.plist in Resources */,
+				92A419341A718C4B004CC575 /* 4.png in Resources */,
+				92A419331A718C4B004CC575 /* 5.png in Resources */,
+				92A4193D1A718C4B004CC575 /* Kareem_Ahmed.jpg in Resources */,
 				925CF8711A547734000300F5 /* InfoPlist.strings in Resources */,
-				92A419131A6ECBBF004CC575 /* Ahmed_Hesham.jpg in Resources */,
-				92A4190E1A6ECBBF004CC575 /* 5.png in Resources */,
-				92A419111A6ECBBF004CC575 /* Ahmed_Badie.jpg in Resources */,
-				92A4190C1A6ECBBF004CC575 /* 3.png in Resources */,
-				92A419171A6ECBBF004CC575 /* Mostafa_Zonkoly.jpg in Resources */,
-				92A4190A1A6ECBBF004CC575 /* 1.png in Resources */,
+				92A419401A718C4B004CC575 /* Hossam_Sherif.jpg in Resources */,
+				92A4193E1A718C4B004CC575 /* Mohamed_Hussien.jpg in Resources */,
+				92A4193B1A718C4B004CC575 /* Ahmed_Hesham.jpg in Resources */,
+				92A4193F1A718C4B004CC575 /* Mostafa_Zonkoly.jpg in Resources */,
+				92A419381A718C4B004CC575 /* Amr_Assal.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
