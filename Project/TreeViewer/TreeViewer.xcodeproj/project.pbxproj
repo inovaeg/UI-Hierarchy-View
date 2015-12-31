@@ -497,7 +497,7 @@
 				GCC_PREFIX_HEADER = "TreeViewer/TreeViewer-Prefix.pch";
 				INFOPLIST_FILE = "TreeViewer/TreeViewer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "65d2d2fc-3532-4758-802f-f1fdeb2f2dfc";
+				PROVISIONING_PROFILE = "da46c20d-6037-4082-8996-62b216c4488e";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -512,7 +512,7 @@
 				GCC_PREFIX_HEADER = "TreeViewer/TreeViewer-Prefix.pch";
 				INFOPLIST_FILE = "TreeViewer/TreeViewer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "65d2d2fc-3532-4758-802f-f1fdeb2f2dfc";
+				PROVISIONING_PROFILE = "da46c20d-6037-4082-8996-62b216c4488e";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

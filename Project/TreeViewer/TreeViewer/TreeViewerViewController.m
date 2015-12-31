@@ -7,12 +7,18 @@
 //
 
 #import "TreeViewerViewController.h"
+#import "CustomNodeView.h"
 
 @interface TreeViewerViewController () <UIScrollViewDelegate>
 
 @end
 
 @implementation TreeViewerViewController
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    
+}
 
 -(id<TreeViewerDelegate>) setup{
     // Our Tree structure is in plist file.
@@ -52,15 +58,13 @@
     }
 
     
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
-    NSLog(@"%d",[nodeQueue count]);
-    
     for (int i=0;i<[nodes count];i++) {
-        UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"CustomViewConroller"];
-        CustomNodeView * customView = (CustomNodeView *)[vc.view viewWithTag:25];
-        [customView createViewWithNode:((Node *)nodes[i])];
-        ((Node *)nodes[i]).nodeView = customView;
-    }
+        CustomNodeView *cell = (CustomNodeView *)[self.tv dequeueReusableCellWithIdentifier:@"customCell"];
+        [cell createViewWithNode:((Node *)nodes[i])];
+        UIView *view = cell.customView;
+        ((Node *)nodes[i]).nodeView = view;
+        
+ }
     
     return root;
 }
@@ -68,6 +72,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     id<TreeViewerDelegate> root = [self setup];
 
     HierarchyScrollView *view =[[HierarchyScrollView alloc]initWithFrame:self.view.bounds andWithRoot:root];

@@ -10,31 +10,31 @@
 	<string>TreeViewer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3BC9A792-3FE3-4162-88CC-CB77D5AD0AAC</key>
-		<string>https://github.com/inovaeg/UI-Hierarchy-View.git</string>
+		<key>BCC7393C310150DE422D5A9DBB0AA4DB7DE77523</key>
+		<string>https://github.com/inovaeg/UI-Hierarchy-View</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Project/TreeViewer/TreeViewer.xcodeproj/project.xcworkspace</string>
+	<string>Project/TreeViewer/TreeViewer.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3BC9A792-3FE3-4162-88CC-CB77D5AD0AAC</key>
+		<key>BCC7393C310150DE422D5A9DBB0AA4DB7DE77523</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/inovaeg/UI-Hierarchy-View.git</string>
+	<string>https://github.com/inovaeg/UI-Hierarchy-View</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3BC9A792-3FE3-4162-88CC-CB77D5AD0AAC</string>
+	<string>BCC7393C310150DE422D5A9DBB0AA4DB7DE77523</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3BC9A792-3FE3-4162-88CC-CB77D5AD0AAC</string>
+			<string>BCC7393C310150DE422D5A9DBB0AA4DB7DE77523</string>
 			<key>IDESourceControlWCCName</key>
-			<string>GIT-UI-Hierarchy-View</string>
+			<string>UI-Hierarchy-View</string>
 		</dict>
 	</array>
 </dict>

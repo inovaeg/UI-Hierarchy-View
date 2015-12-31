@@ -12,5 +12,6 @@
 #import "HierarchyScrollView.h"
 
 @interface TreeViewerViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITableView *tv;
 
 @end

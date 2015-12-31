@@ -248,12 +248,12 @@ static const CGPoint viewShift ={30, 0}; // tree shift
     int startY = (row+1)*(gap.height+node.nodeView.bounds.size.height) + viewShift.y;
     
     //TODO: remove this
-    startX-= node.nodeView.bounds.size.width/2;
-    startY-= node.nodeView.bounds.size.height/2;
+//    startX-= node.nodeView.bounds.size.width/2;
+//    startY-= node.nodeView.bounds.size.height/2;
     //
-    
     [node.nodeView setFrame:CGRectMake(startX, startY, node.nodeView.bounds.size.width, node.nodeView.bounds.size.height)];
     
+    //[node.nodeView removeFromSuperview];
     [self addSubview:node.nodeView];
     //add tapgesture to the view in the node
     [self addTapGestureToView:node];

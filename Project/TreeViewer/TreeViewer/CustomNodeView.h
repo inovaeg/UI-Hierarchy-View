@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "Node.h"
 
-@interface CustomNodeView : UIView
+@interface CustomNodeView : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIView *customView;
 
 -(void)createViewWithNode :(Node *) node;
 
